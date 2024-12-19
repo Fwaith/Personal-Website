@@ -1,0 +1,42 @@
+body {
+    background:
+        linear-gradient(
+            105deg,
+            rgb(255 255 255 / 20%) 39%,
+            rgb(51 56 57 / 100%) 96%
+        );
+    font-family: sans-serif;
+}
+
+ul {
+    border: 1px solid;
+    display: flex;
+    list-style: none;
+    padding: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    border: 1px solid;
+    color: black;
+    margin: 0px 5px;
+    padding: 3px 10px;
+}
+
+li:hover {
+    background-color: black;
+    color: azure;
+    transform: scale(1.05);
+}
+
+.container {
+    align-items: center;
+    display: flex;
+  }
+
+#rabiho:hover {
+    transform: scale(1.05);
+}
